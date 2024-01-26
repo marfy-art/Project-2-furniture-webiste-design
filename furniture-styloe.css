@@ -767,5 +767,35 @@ footer{
 
 
 @media only screen and (min-width: 1024px) and (max-width: 1440px){
+  header{
+    padding: 0 80px;
+    transition: all ease-in-out .60s;
+  }
 
+  .home{
+    padding: 200px 80px 120px 80px;
+    transition: all ease-in-out .60s;
+  }
+
+  .new-arive {
+    padding: 160px 80px 120px 80px;
+    transition: all ease-in-out .60s;
+  }
+
+  .category {
+    padding: 160px 80px 120px 80px;
+    transition: all ease-in-out .60s;
+  }
+
+  footer {
+    padding: 120px 80px;
+    transition: all ease-in-out .60s;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px){
 }
